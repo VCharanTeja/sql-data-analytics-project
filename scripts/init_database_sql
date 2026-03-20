@@ -12,12 +12,11 @@ WARNING:
     and ensure you have proper backups before running this script.
 */
 
-/* -- Drop database (run separately, not inside transaction)
+--Drop database (run separately, not inside transaction) 
 DROP DATABASE IF EXISTS DataWarehouseAnalytics;
 
 -- Create database
-CREATE DATABASE DataWarehouseAnalytics; */
-
+CREATE DATABASE DataWarehouseAnalytics;
 
 -- Connect to database (run manually in pgAdmin)
 -- \c DataWarehouseAnalytics
@@ -93,3 +92,4 @@ COPY gold.fact_sales
 FROM 'F:\sql\sql-data-analytics-project\datasets\flat-files\fact_sales.csv'
 DELIMITER ','
 CSV HEADER;
+
