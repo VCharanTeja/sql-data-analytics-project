@@ -73,8 +73,9 @@ The goal is to analyze sales, customer behavior, and product performance to gene
 4. Query final views:
 
 sql
-SELECT * FROM gold.report_customers;
-SELECT * FROM gold.report_products;
+/* SELECT * FROM gold.report_customers; */
+
+/* SELECT * FROM gold.report_products; */
 
 
 
