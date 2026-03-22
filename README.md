@@ -19,26 +19,7 @@ The goal is to analyze **sales, customer behavior, and product performance** to 
 
 ---
 
-## 📂 Project Structure
 
-```
-scripts/
-│
-├── 00_init_database.sql              -- Database & schema setup
-├── 01_database_exploration.sql       -- Initial data exploration
-├── 02_dimensions_exploration.sql     -- Dimension table analysis
-├── 03_daterange_exploration.sql      -- Time range & date analysis
-├── 04_measures_exploration.sql       -- Key metrics calculation
-├── 05_magnitude_analysis.sql         -- Distribution & scale analysis
-├── 06_ranking_analysis.sql           -- Top/Bottom N analysis
-├── 07_change_over_time_analysis.sql  -- Trend & growth analysis
-├── 08_cumulative_analysis.sql        -- Running totals & cumulative metrics
-├── 09_performance_analysis.sql       -- Growth & performance benchmarking
-├── 10_data_segmentation.sql          -- Customer & product segmentation
-├── 11_part_to_whole_analysis.sql     -- Contribution & share analysis
-├── 12_report_customers.sql           -- Final customer analytics view
-└── 13_report_product.sql             -- Final product analytics view
-```
 
 ---
 
