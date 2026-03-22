@@ -8,15 +8,11 @@ This project demonstrates end-to-end data analysis using **PostgreSQL**, coverin
 
 The goal is to analyze sales, customer behavior, and product performance to generate meaningful business insights.
 
----
 
 ## 🛠️ Tech Stack
 
 * PostgreSQL
 
-```
-
----
 
 ## 🔍 Key Analysis Performed
 
@@ -46,7 +42,6 @@ The goal is to analyze sales, customer behavior, and product performance to gene
 * Customer lifespan & recency
 * Product performance metrics
 
----
 
 ## 📈 Key Insights
 
@@ -55,7 +50,6 @@ The goal is to analyze sales, customer behavior, and product performance to gene
 * Customer lifecycle and recency significantly impact spending behavior.
 * Sales trends show clear time-based patterns useful for forecasting.
 
----
 
 ## 🧠 Key Concepts Used
 
@@ -66,7 +60,6 @@ The goal is to analyze sales, customer behavior, and product performance to gene
 * Aggregations & grouping
 * Data segmentation techniques
 
----
 
 ## 🚀 How to Run
 
@@ -74,18 +67,17 @@ The goal is to analyze sales, customer behavior, and product performance to gene
 2. Open PostgreSQL (pgAdmin / psql)
 3. Execute scripts in order:
 
-```
+
 00_init_database.sql → 13_report_product.sql
-```
 
 4. Query final views:
 
-```sql
+sql
 SELECT * FROM gold.report_customers;
 SELECT * FROM gold.report_products;
-```
 
----
+
+
 
 ## 🎯 Project Outcome
 
@@ -95,7 +87,6 @@ This project simulates real-world analytics workflows by:
 * Building reusable reporting views
 * Applying business logic for decision-making
 
----
 
 ## 💡 Future Enhancements
 
