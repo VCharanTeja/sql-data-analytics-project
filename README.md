@@ -6,7 +6,6 @@ This project demonstrates **end-to-end data analysis using PostgreSQL**, coverin
 
 The goal is to analyze **sales, customer behavior, and product performance** to generate meaningful, decision-ready business insights using structured SQL workflows.
 
-> **Dataset:** AdventureWorks-style sales database with fact and dimension tables covering customers, products, orders, and time dimensions.
 
 ---
 
