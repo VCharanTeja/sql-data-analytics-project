@@ -111,10 +111,7 @@ This project simulates real-world analytics workflows by:
 
 ## 💡 Future Enhancements
 
-- [ ] Build Power BI / Tableau dashboards on top of reporting views
-- [ ] Add RFM (Recency, Frequency, Monetary) segmentation model
-- [ ] Implement predictive analytics using regression techniques
-- [ ] Automate the pipeline using ETL tools (dbt, Airflow)
+- [ ] Build a Power BI dashboard on top of the reporting views to visualize the insights
 
 ---
 
